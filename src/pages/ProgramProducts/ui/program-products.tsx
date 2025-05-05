@@ -81,7 +81,6 @@ export const ProgramProducts: FC = () => {
 						text='Создать продукты'
 						style='magic'
 						onClick={openProductWizard}
-						isBlock
 					/>
 					{program ? (
 						<Button
